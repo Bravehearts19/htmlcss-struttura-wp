@@ -8,6 +8,7 @@
     content: "";
     display: table;
     clear: both;
+    margin: 0;
 }
   
 .container {
@@ -40,13 +41,16 @@ main .container {
 } 
 
 .container_blue section {
-    width: calc(100% - (2 * 10px));
+    width: calc(60% - (2 * 12px));
     margin: 0 12px;
+    height: 265px;
+    margin-bottom: 10px;
 }
 
 
 .container_blue aside {
     width: 20%;
+    height: 265px;
 }
 
 .into_blue_container {
